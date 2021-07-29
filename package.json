@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "Coding Test for Nodejs Recruitment at Spekter GmbH",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs test",
+    "Spekter GmbH",
+    "Spekter",
+    "GmbH"
+  ],
+  "author": "Nazmul Islam",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.4",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
